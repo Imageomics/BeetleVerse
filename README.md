@@ -14,8 +14,9 @@
   - [Efficient Probing (NHMC)](#efficient-probing-nhmc)
   - [Multimodality (BeetlePalooza)](#multimodality-beetlepalooza)
 - [Software Requirements](#software-requirements)
-- [Citing BeetleVerse](#citation)
 - [License](#license)
+- [Citation](#citation)
+
 
 ---
 
@@ -51,9 +52,9 @@
   │ ├── Full/
   │ └── Subset/
   │
+  ├── CITATION.cff
   ├── LICENSE
   ├── README.md
-  ├── CITATION.cff
   └── requirements.txt
 ```
 
