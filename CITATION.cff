@@ -1,0 +1,54 @@
+cff-version: 1.0.0
+title: BeetleVerse
+message: If you use this software, please cite both the paper and this repository itself.
+type: software
+authors:
+  - given-names: "S. M."
+    family-names: Rayeed
+  - given-names: Alyson
+    family-names: East
+  - given-names: Samuel
+    family-names: Stevens
+  - given-names: Sydne
+    family-names: Record
+  - given-names: "Charles V."
+    family-names: Stewart
+identifiers:
+  - type: doi
+    value: "10.48550/arXiv.2504.13393"
+  - description: "The GitHub release URL of this version."
+    type: url
+    value: "https://github.com/Imageomics/BeetleVerse/releases/tag/v1.0"
+  - description: "The GitHub URL of the commit tagged with v1.0."
+    type: url
+    value: "https://github.com/Imageomics/BeetleVerse/tree/<commit-hash>"
+repository-code: "https://github.com/Imageomics/BeetleVerse"
+url: "https://github.com/Imageomics/BeetleVerse"
+abstract: 
+keywords:
+  - beetles
+  - taxonomy
+  - classification
+  - vision models
+  - domain adaptation
+  - multimodal
+  - imageomics
+license: MIT
+version: "v1.0"
+date-released: "2026-01-29"
+references:
+  - type: conference-workshop-paper
+    title: "BeetleVerse: A study on taxonomic classification of ground beetles"
+    authors:
+      - given-names: "S. M."
+        family-names: Rayeed
+      - given-names: Alyson
+        family-names: East
+      - given-names: Samuel
+        family-names: Stevens
+      - given-names: Sydne
+        family-names: Record
+      - given-names: "Charles V."
+        family-names: Stewart
+    doi: "10.48550/arXiv.2504.13393"
+    date-released: "2025-04-18"
