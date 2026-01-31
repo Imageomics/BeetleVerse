@@ -72,13 +72,13 @@
 We use four distinctive datasets in this study, totaling **100,885 carabid images**, spanning over **230 genera and 1769 species**.  
 We also provide a merged version combining all four datasets for large-scale analyses.
 
-#### **BeetlePUUM**  
+#### **BeetlePUUM** (Hawaii-beetles) 
   A dataset of Hawaiian-endemic carabids, imaged from pinned specimens at the Pu'u Maka'ala site (PUUM) of the National Ecological Observatory Network (NEON).  
   - Controlled high-quality images, rich ecological metadata  
   - Limited taxonomic diversity  
   - Official dataset on Hugging Face: [imageomics/Hawaii-beetles](https://huggingface.co/datasets/imageomics/Hawaii-beetles)
 
-#### **BeetlePalooza**  
+#### **BeetlePalooza** (2018-NEON-beetles) 
   NEON carabid dataset from 30 sites across the continental US, containing beetles preserved in ethanol vials.  
   - Broad taxonomic and geographic diversity (36 genera, 76 species)  
   - Contains ecological metadata  
@@ -92,7 +92,7 @@ We also provide a merged version combining all four datasets for large-scale ana
   - Some images blurry or with lighting inconsistencies  
   - Official dataset on Zenodo: ([Zenodo DOI: 10.5281/zenodo.3549369](https://zenodo.org/record/3549369))
 
-#### **I1MC**  
+#### **I1MC**  (Insect-1M)
   Filtered subset of carabids from the Insect-1M dataset.  
   - Includes both lab specimens and in-situ images  
   - Offers high taxonomic diversity  
@@ -101,6 +101,12 @@ We also provide a merged version combining all four datasets for large-scale ana
 
 #### **AllCarabids**  
   Merged dataset combining all four datasets above, enabling large-scale analyses across diverse imaging conditions, taxonomic groups, and ecological contexts.
+
+> **Disclaimer**  
+> This repository is **not** associated with the publication or release of any of the datasets listed above.  
+> This repository provides **code and evaluation pipelines** for benchmarking models on these datasets.  
+> All datasets are maintained and distributed by their respective authors and institutions and should be cited separately as specified by their original sources (See [Dataset Citation](#Dataset-Citation)).
+
 
 ---
 
@@ -160,8 +166,7 @@ If you use BeetleVerse, please cite **both the paper and this software**.
   title={BeetleVerse: A study on taxonomic classification of ground beetles},
   author={Rayeed, SM and East, Alyson and Stevens, Samuel and Record, Sydne and Stewart, Charles V},
   journal={arXiv preprint arXiv:2504.13393},
-  year={2025},
-  doi={10.48550/arXiv.2504.13393}
+  year={2025}
 }
 ```
 
@@ -177,7 +182,9 @@ If you use BeetleVerse, please cite **both the paper and this software**.
 ```
 
 ### Dataset Citation
-  
+
+This repository does not publish and is not associated to the publication of any of the listed dataset. If you use any datasets in your work, please cite them appropriately:
+
   - If you use the [`BeetlePUUM` dataset](#BeetlePUUM), please cite the dataset, with associated specimen- and trap-level metadata :
 ```bibtex
 @dataset{rayeed2025HawaiiBeetles,
