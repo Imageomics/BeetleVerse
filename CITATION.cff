@@ -1,6 +1,10 @@
 cff-version: 1.0.0
 title: BeetleVerse
-message: If you use this software, please cite both the paper and this repository itself.
+message: >
+  If you use this software, please cite it using the reference below.
+  This repository provides benchmarking code and evaluation notebooks.
+  If you use any datasets, please cite the original datasets as specified
+  in the README.
 type: software
 authors:
   - given-names: "S. M."
@@ -50,5 +54,5 @@ references:
         family-names: Record
       - given-names: "Charles V."
         family-names: Stewart
-    doi: "10.48550/arXiv.2504.13393"
+    url: https://arxiv.org/abs/2504.13393
     date-released: "2025-04-18"
