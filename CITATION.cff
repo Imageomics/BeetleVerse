@@ -1,4 +1,4 @@
-cff-version: 1.0.0
+cff-version: 1.2.0
 title: BeetleVerse
 message: >
   If you use this software, please cite it using the reference below.
@@ -18,17 +18,14 @@ authors:
   - given-names: "Charles V."
     family-names: Stewart
 identifiers:
-  - type: doi
-    value: "10.48550/arXiv.2504.13393"
   - description: "The GitHub release URL of this version."
     type: url
     value: "https://github.com/Imageomics/BeetleVerse/releases/tag/v1.0"
   - description: "The GitHub URL of the commit tagged with v1.0."
     type: url
-    value: "https://github.com/Imageomics/BeetleVerse/tree/<commit-hash>"
+    value: "https://github.com/Imageomics/BeetleVerse/tree/<commit-hash>" # Update after release
 repository-code: "https://github.com/Imageomics/BeetleVerse"
-url: "https://github.com/Imageomics/BeetleVerse"
-abstract: 
+abstract: "BeetleVerse is a benchmarking suite for evaluating vision models on ground beetle classification. It provides evaluation notebooks and results for genus- and species-level classification, domain adaptation, sample-efficient probing, and multimodal extensions using existing beetle datasets. This repository accompanies the paper: BeetleVerse: A study on taxonomic classification of ground beetles."
 keywords:
   - beetles
   - taxonomy
@@ -37,9 +34,11 @@ keywords:
   - domain adaptation
   - multimodal
   - imageomics
+  - benchmarking
 license: MIT
-version: "v1.0"
-date-released: "2026-01-29"
+version: 1.0.0
+date-released: "2026-02-XX" # This is to be updated before release to match release date
+# doi: # add after release
 references:
   - type: conference-workshop-paper
     title: "BeetleVerse: A study on taxonomic classification of ground beetles"
@@ -54,5 +53,5 @@ references:
         family-names: Record
       - given-names: "Charles V."
         family-names: Stewart
-    url: https://arxiv.org/abs/2504.13393
+    doi: "10.48550/arXiv.2504.13393"
     date-released: "2025-04-18"
