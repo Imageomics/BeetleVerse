@@ -1,6 +1,6 @@
 # BeetleVerse
 
-**BeetleVerse** is a benchmark suite for evaluating vision models on ground beetle classification. It provides datasets, evaluation notebooks, and results for genus- and species-level classification, domain adaptation, sample-efficient probing, and multimodal extensions. This repository accompanies the paper: [BeetleVerse: A study on taxonomic classification of ground beetles](https://doi.org/10.48550/arXiv.2504.13393).
+**BeetleVerse** is a benchmark suite for evaluating vision models on ground beetle classification. It provides evaluation notebooks and results for genus- and species-level classification, domain adaptation, sample-efficient probing, and multimodal extensions for existing datasets. This repository accompanies the paper: [BeetleVerse: A study on taxonomic classification of ground beetles](https://doi.org/10.48550/arXiv.2504.13393).
 
 ---
 
@@ -14,7 +14,6 @@
   - [Efficient Probing (NHMC)](#efficient-probing-nhmc)
   - [Multimodality (BeetlePalooza)](#multimodality-beetlepalooza)
 - [Software Requirements](#software-requirements)
-- [License](#license)
 - [Citation](#citation)
 
 
@@ -72,32 +71,32 @@
 We use four distinctive datasets in this study, totaling **100,885 carabid images**, spanning over **230 genera and 1769 species**.  
 We also provide a merged version combining all four datasets for large-scale analyses.
 
-#### **BeetlePUUM** (Hawaii-beetles) 
+#### **BeetlePUUM** (Hawaii beetles) 
   A dataset of Hawaiian-endemic carabids, imaged from pinned specimens at the Pu'u Maka'ala site (PUUM) of the National Ecological Observatory Network (NEON).  
   - Controlled high-quality images, rich ecological metadata  
   - Limited taxonomic diversity  
   - Official dataset on Hugging Face: [imageomics/Hawaii-beetles](https://huggingface.co/datasets/imageomics/Hawaii-beetles)
 
-#### **BeetlePalooza** (2018-NEON-beetles) 
+#### **BeetlePalooza** (2018 NEON Ethanol-preserved Ground Beetles) 
   NEON carabid dataset from 30 sites across the continental US, containing beetles preserved in ethanol vials.  
   - Broad taxonomic and geographic diversity (36 genera, 76 species)  
   - Contains ecological metadata  
   - Specimens vary in spacing and orientation  
   - Official dataset on Hugging Face: [imageomics/2018-NEON-beetles](https://huggingface.co/datasets/imageomics/2018-NEON-beetles)
 
-#### **NHM-Carabids**  
-  A collection from the Natural History Museum, London.  
+#### **NHM-Carabids**
+  A collection from the Natural History Museum, London: Image data used for publication "Species-level image classification with convolutional neural network enable insect identification from habitus images". 
   - Expert-verified taxonomy labels  
   - No accompanying metadata  
   - Some images blurry or with lighting inconsistencies  
-  - Official dataset on Zenodo: ([Zenodo DOI: 10.5281/zenodo.3549369](https://zenodo.org/record/3549369))
+  - Official dataset on Zenodo: [Zenodo DOI: 10.5281/zenodo.3549369](https://zenodo.org/record/3549369)
 
 #### **I1MC**  (Insect-1M)
   Filtered subset of carabids from the Insect-1M dataset.  
   - Includes both lab specimens and in-situ images  
   - Offers high taxonomic diversity  
   - Variable image quality, inconsistent specimen orientation, and partial captures  
-  - Official dataset: [uark-cviu.github.io/projects/insect-foundation](https://uark-my.sharepoint.com/:f:/g/personal/hn016_uark_edu/Ekg5PAR-5GJKhdd3YTj2kBoBc0mNOcCP5YQqEnxjY4h-qg?e=dnBs5m)  
+  - Official dataset: [uark-cviu.github.io/projects/insect-foundation](https://uark-cviu.github.io/projects/insect-foundation)  
 
 #### **AllCarabids**  
   Merged dataset combining all four datasets above, enabling large-scale analyses across diverse imaging conditions, taxonomic groups, and ecological contexts.
@@ -106,6 +105,7 @@ We also provide a merged version combining all four datasets for large-scale ana
 > This repository is **not** associated with the publication or release of any of the datasets listed above.  
 > This repository provides **code and evaluation pipelines** for benchmarking models on these datasets.  
 > All datasets are maintained and distributed by their respective authors and institutions and should be cited separately as specified by their original sources (See [Dataset Citation](#Dataset-Citation)).
+> Refer to the datasets for appropriate licensing applied to the images and associated metadata.
 
 
 ---
@@ -151,14 +151,9 @@ Install via:
 pip install -r requirements.txt
 ```
 
-
-## License
-
-`BeetleVerse` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
-
 ## Citation
 
-If you use BeetleVerse, please cite **both the paper and this software**.
+If you use BeetleVerse, please cite **the paper, this software, and the datasets** with which it is used.
 
 ### Paper Citation
 ```bibtex
@@ -185,7 +180,7 @@ If you use BeetleVerse, please cite **both the paper and this software**.
 
 This repository does not publish and is not associated to the publication of any of the listed dataset. If you use any datasets in your work, please cite them appropriately:
 
-  - If you use the [`BeetlePUUM` dataset](#BeetlePUUM), please cite the dataset, with associated specimen- and trap-level metadata :
+  - If you use the [Hawaii Beetles dataset](https://huggingface.co/datasets/imageomics/Hawaii-beetles) (referenced here as `BeetlePUUM`), please cite the dataset, with associated specimen- and trap-level metadata:
 ```bibtex
 @dataset{rayeed2025HawaiiBeetles,
   title={Hawaii Beetles (Revision a6a3ee5)},
@@ -219,7 +214,7 @@ This repository does not publish and is not associated to the publication of any
 }
 ```
 
-- If you use the [`BeetlePalooza` dataset](#BeetlePalooza), please cite the dataset, with associated metadata :
+- If you use the [2018 NEON Ethanol-preserved Ground Beetles dataset](https://huggingface.co/datasets/imageomics/2018-NEON-beetles) (referenced here as `BeetlePalooza`), please cite the dataset, with associated metadata :
 ```bibtex
 @misc{Fluck2018_NEON_Beetle,
   author={Isadora E. Fluck and Isha Chinniah and Riley Wolcheski and Mridul Khurana and S M Rayeed and Benjamin Baiser and
@@ -250,7 +245,7 @@ This repository does not publish and is not associated to the publication of any
 }
 ```  
 
-  - If you use the [`NHMC` dataset](#NHM-Carabids), please cite:
+  - If you use the [Image data used for publication "Species-level image classification with convolutional neural network enable insect identification from habitus images"](https://doi.org/10.5281/zenodo.3549369) (referenced here as `NHMC` or `NHM-Carabids`), please cite:
 ```bibtex
 @dataset{hansen_2019_3549369,
   author       = {Hansen, Oskar Liset Pryds and Svenning, Jens-Christian and Olsen, Kent and Dupont, Steen and Garner, Beulhah H. and Iosifidis, Alexandros and Price, Benjamin W. and Høye, Toke T.},
@@ -262,7 +257,7 @@ This repository does not publish and is not associated to the publication of any
 }
 ``` 
 
-  - If you use the [`I1MC` dataset](#I1MC), consider citing the paper that introduced the dataset:
+  - If you use the [Insect-1M dataset](https://uark-cviu.github.io/projects/insect-foundation/) (referenced here as `I1MC`), consider citing the paper that introduced the dataset:
 ```bibtex
 @inproceedings{nguyen2024insect,
   title={Insect-foundation: A foundation model and large-scale 1m dataset for visual insect understanding},
