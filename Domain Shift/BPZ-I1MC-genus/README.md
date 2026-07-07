@@ -1,13 +1,13 @@
-# Domain Shift · BPZ-I1MC-species
+# Domain Shift · BPZ-I1MC-genus
 
-**Lab → in-situ** transfer at species level: train on ethanol-preserved collections, test on in-situ field photographs.
+**Lab → in-situ** transfer: train on ethanol-preserved collections, test on in-situ field photographs.
 
 | | Dataset | Split file | Rows |
 |---|---|---|--:|
-| **Train (source)** | BeetlePalooza | `train.csv` | 11,325 |
-| **Test (target)** | Insect-1M carabids | `test.csv` | 1,871 |
+| **Train (source)** | BeetlePalooza | `train.csv` | 11,372 |
+| **Test (target)** | Insect-1M carabids | `test.csv` | 11,480 |
 
-**Rank:** species
+**Rank:** genus
 
 ## Data provenance
 
@@ -34,7 +34,7 @@ Six models, numbered: `1.BioCLIP`, `2.CLIP`, `3.LeViT`, `4.ConvNeXt`,
 
 > **Filename note:** the ConvNeXt predictions are committed as
 > `4.ConvNeXt-species.csv` even here; it is a naming artifact only — contents
-> reflect this folder's **species** rank.
+> reflect this folder's **genus** rank.
 
 ## Reproduce
 
