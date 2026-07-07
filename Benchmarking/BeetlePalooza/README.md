@@ -3,6 +3,7 @@
 NEON carabids from 30 continental-US sites, **preserved in ethanol vials**. Broad taxonomic/geographic diversity with ecological metadata; specimens vary in spacing and orientation.
 
 **Rank(s) evaluated:** genus **and** species
+
 **Models benchmarked:** 25 (see list below)
 
 ## Data provenance & preparation
