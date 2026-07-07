@@ -3,6 +3,7 @@
 Carabid subset of the **Insect-1M** dataset — a mix of lab specimens and **in-situ** field photographs. High taxonomic diversity but variable image quality, inconsistent orientation, and partial captures.
 
 **Rank(s) evaluated:** species
+
 **Models benchmarked:** 12 (see list below)
 
 ## Data provenance & preparation
