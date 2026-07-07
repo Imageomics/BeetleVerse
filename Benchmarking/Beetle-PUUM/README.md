@@ -3,6 +3,7 @@
 Hawaiian-endemic carabids imaged from **pinned specimens** at the Puʻu Makaʻala (PUUM) NEON site. Controlled, high-quality images with rich ecological metadata but limited taxonomic diversity — the cleanest imaging domain in BeetleVerse, and the folder with the **widest model sweep**.
 
 **Rank(s) evaluated:** genus **and** species
+
 **Models benchmarked:** 38 (see list below)
 
 ## Data provenance & preparation
