@@ -3,6 +3,7 @@
 **AllCarabids** is the merged superset combining all four source datasets (BeetlePUUM, BeetlePalooza, NHM-Carabids, Insect-1M carabids) into one species-level manifest, `AllCarabids.csv`. It stresses each backbone across every imaging condition at once.
 
 **Rank(s) evaluated:** species
+
 **Models benchmarked:** 12 (see list below)
 
 ## Data provenance & preparation
