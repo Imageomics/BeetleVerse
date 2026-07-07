@@ -43,11 +43,6 @@ embeddings. They are the provenance backbone of this experiment.
 
 **Models:** BioCLIP, ConvNeXt, DINOv2, ViLT.
 
-> [!NOTE]
-> The explicit **image-only notebook lives in `Subset/`** (`<Model>-imageOnly.ipynb`).
-> In `Full/`, the image-only result is committed as the baseline `<Model>.csv` /
-> `<Model>-metrics.csv` (produced by the same pipeline) while the notebooks focus
-> on the `-traits` and `-traits-weather` variants.
 
 ## Files in each variant
 
