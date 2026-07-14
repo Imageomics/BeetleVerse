@@ -105,7 +105,7 @@ We also provide a merged version combining all four datasets for large-scale ana
 > This repository is **not** associated with the publication or release of any of the datasets listed above.  
 > This repository provides **code and evaluation pipelines** for benchmarking models on these datasets.  
 > All datasets are maintained and distributed by their respective authors and institutions and should be cited separately as specified by their original sources (See [Dataset Citation](#Dataset-Citation)).
-> Refer to the datasets for appropriate licensing applied to the images and associated metadata.
+> Refer to the individual datasets for the licenses that apply to the images and associated metadata.
 
 
 ---

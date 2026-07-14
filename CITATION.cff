@@ -37,7 +37,7 @@ keywords:
   - benchmarking
 license: MIT
 version: 1.0.0
-date-released: "2026-02-XX" # This is to be updated before release to match release date
+date-released: "2026-07-XX" # This is to be updated before release to match release date
 # doi: # add after release
 references:
   - type: conference-workshop-paper
