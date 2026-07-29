@@ -1,6 +1,6 @@
 # BeetleVerse
 
-**BeetleVerse** is a benchmark suite for evaluating vision models on ground beetle classification. It provides evaluation notebooks and results for genus- and species-level classification, domain adaptation, sample-efficient probing, and multimodal extensions for existing datasets. This repository accompanies the paper: [BeetleVerse: A study on taxonomic classification of ground beetles](https://doi.org/10.48550/arXiv.2504.13393).
+**BeetleVerse** is a benchmark suite for evaluating vision models on ground beetle classification. It provides evaluation notebooks and results for genus- and species-level classification, domain adaptation, sample-efficient probing, and multimodal extensions for four previously published beetle datasets. This repository accompanies the paper: [BeetleVerse: A study on taxonomic classification of ground beetles](https://doi.org/10.48550/arXiv.2504.13393).
 
 ---
 
